@@ -16,7 +16,7 @@ Si causó conflicto porque la rama htmlify y la rama styled tenian el mismo fich
 No, ya que fué Fast-Forward y no había cambios en la líneas 
 
 - ¿Qué comando o comandos utilizaste en el paso 25?
-
+~~~
 $ git log --graph
 *   commit d781b0b4afb73722e080402ed3c447e9cc48d766 (HEAD -> master, styled)
 |\  Merge: 339c4f4 1a3533f
@@ -42,18 +42,12 @@ $ git log --graph
   Date:   Fri Nov 25 19:15:11 2022 +0100
 
       Se crea fichero git-nuestro.md
-
+~~~
 - El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
 si porque los elementos están en lista y no hay comits inalcanzables 
 
 - ¿Qué comando o comandos utilizaste en el paso 27?
 git reflog
-
-16f8686 (HEAD -> master) HEAD@{0}: merge title: Merge made by the 'ort' strategy.
-d781b0b (styled) HEAD@{1}: checkout: moving from title to master
-13cdcc4 (title) HEAD@{2}: commit: Añadimos titulo a git-nuestro.md
-
-
 git reset HEAD~2
 
 
