@@ -59,7 +59,7 @@ git reset HEAD~2
 git branch -D title
 
 - ¿Qué comando o comandos utilizaste en el paso 30?
-
+~~~
 $ git reflog
 339c4f4 (HEAD -> master) HEAD@{0}: reset: moving to HEAD
 339c4f4 (HEAD -> master) HEAD@{1}: reset: moving to HEAD~2
@@ -87,7 +87,7 @@ git branch -D master
 git checkout 16f8686 (estaba en detached HEAD)
 git switch -c master
 
-
+~~~
 - ¿Qué comando o comandos usaste en el paso 32?
  git reset --hard 310f898
 
